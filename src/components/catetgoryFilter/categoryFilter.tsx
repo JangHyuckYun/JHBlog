@@ -126,13 +126,13 @@ const Divider = styled.div`
 
 const CategoryUl = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
-  overflow-x: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
-
-  li + li {
-    margin-left: 6px;
+  
+  li {
+    margin: 7px 0 0 6px;
   }
 `
 
