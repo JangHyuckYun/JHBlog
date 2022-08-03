@@ -1,76 +1,24 @@
-# Gatsby Starter Apple
+# JH's BLOG
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsungik-choi%2Fgatsby-starter-apple&count_bg=%23FC2350&title_bg=%23555555&icon=gatsby.svg&icon_color=%23E7E7E7&title=HITS&edge_flat=false)](https://hits.seeyoufarm.com)
+---
 
-**Gatsby blog starter kit with beautiful responsive design**
+## 만들게 된 계기
+친구가 vue를 활용해 .md 파일을 사용하여 개인 블로그를 만들면서 자신이 한 것들을 정리하는 모습을 보고
+나도 만들까 고민은 했지만 그 당시에는 리액트 공부 초기라 다음에 하기로 하고 미뤘다.  
+2~3주 뒤 쯤 카페에서 회사분들이랑 개인 블로그 관련 얘기가 나오고 지금 이정도면 나도 만들수 있겠다 싶어서 만들게 되었다.
 
-![Screenshot](.github/screenshot.png)
+---
 
-## 🍎 Demo
+## 기술 스택
+- 도메인 생성 및 빌드 / Netlify
+- 정적 페이지 생성 / Gatsby Framework
+- 템플릿 / Gatsby Starter Apple
+- .md 데이터 가져오기 / GraphQL
+- 주 사용 언어 / React Library
+- Html styling / css, sass(scss)
+- GitHub
 
-👉 **View [Demo Page](https://apple.gatsbyjs.io/)**
+---
 
-## ✨ Features
-
-- Lighthouse 100 + PWA
-- styled-components
-- Apple style responsive design
-- Prefect dynamic theme (Comment + Code highlight)
-- Beautiful mobile menu animation
-- Code highlighting with [gatsby-remark-vscode](https://github.com/andrewbranch/gatsby-remark-vscode)
-- [Utterances](https://utteranc.es/) Comment
-- Categories support
-- Infinite Scroll with Intersection Observer
-- RSS Feed
-- SEO
-- Offline support
-- Prettier & ESLint
-
-## 🚀 Quick Start
-
-### 1. Create a Gatsby site
-
-Use the Gatsby CLI to create a new site, specifying the blog starter.
-
-```shell
-# create a new Gatsby site using the blog starter
-gatsby new my-blog-starter https://github.com/sungik-choi/gatsby-starter-apple
-```
-
-### 2. Start developing
-
-Navigate into your new site’s directory and start it up.
-
-```shell
-cd my-blog-starter/
-gatsby develop
-```
-
-### 3. Open the source code and start editing
-
-Your site is now running at `http://localhost:8000`!
-
-_Note: You'll also see a second link:_`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
-
-Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
-### 4. Fix meta data
-
-Open **`gatsby-meta-config.js`** and fix meta data of your blog.
-
-```js
-module.exports = {
-  title: "Dev Ed", // Your website title
-  description: `Ed's Blog`, // Your website description
-  author: "Ed", // Maybe your name
-  siteUrl: "https://gatsby-starter-apple.netlify.app", // Your website URL
-  lang: "en", // Language
-  utterances: "sungik-choi/gatsby-starter-apple-comment", // Github repository to store comments
-  links: {
-    github: "https://github.com/sungik-choi/gatsby-starter-apple", // Your github repository
-  },
-  icon: "src/images/icon.png", //  Favicon Path
-}
-```
+### IDE
+- IntelliJ IDEA Ultimate / version: 2022.02
