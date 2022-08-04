@@ -38,3 +38,7 @@ thumbnail: ./images/macAir.jpg
 
 React Native를 책을 보고 공부 중인데, 이 책에서는 Homebrew를 사용해 jdk를 다운 받았다.
 
+[안드로이드 스튜디오 설치 및 자바 설치](/blog/development/Programming-language/Java/androidStudioSetting/)
+
+※ 추후 React-native 세팅 및 실행기 올릴 예정이다.
+
