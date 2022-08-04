@@ -2,6 +2,7 @@
 title: Android 초기 설정 및 jdk 설치 ( Mac )
 date: "2022-08-02"
 desc: "homebrew 설치 방법부터, homebrew 활용한 jdk 설치 및 android studio 환경 변수 설정"
+alt: "Android 초기 설정 및 jdk 설치"
 category: "Android Studio"
 tags: [ "Gatsby", "React", "Javascript" ]
 thumbnail: ./images/android_studio.png

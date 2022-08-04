@@ -3,6 +3,7 @@ title: Gatsby란?
 date: "2022-03-10"
 desc: "Gatsby란 무엇이고 초반 빌드하는법에 대하여 정리하였습니다."
 category: "JavaScript"
+alt: "Gatsby란?"
 tags: [ "Gatsby", "React", "Javascript" ]
 thumbnail: ./images/Gatsby_logo.png
 ---

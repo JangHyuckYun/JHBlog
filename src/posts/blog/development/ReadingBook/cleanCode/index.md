@@ -2,6 +2,7 @@
 title: CleanCode(클린코드) 책 읽고 느낀점, 배운점 
 date: "2022-03-15"
 desc: "CleanCode 관련 책을 읽으면서 어떤것들을 배웠는지 적었습니다."
+alt: "Clean Code book"
 category: "ReadingBook"
 tags: [ "2022" ,"Book", "Clean Code", "Programming" ]
 thumbnail: ./images/codeClean.jpg
