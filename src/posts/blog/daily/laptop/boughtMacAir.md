@@ -2,6 +2,7 @@
 title: MacAir 구매
 date: "2022-08-02"
 desc: "맥북 구매 및 세팅"
+alt: "bought mac Air"
 category: "Daily"
 tags: [ "Gatsby", "React", "Javascript" ]
 thumbnail: ./images/macAir.jpg

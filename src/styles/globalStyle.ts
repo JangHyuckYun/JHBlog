@@ -151,6 +151,10 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    margin: 15px 0;
+  }
+
   h1 a, li a  {
     text-decoration: none;
   }
@@ -179,6 +183,10 @@ const GlobalStyle = createGlobalStyle`
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
     white-space: no-wrap;
+  }
+  
+  .utterances {
+    max-width: calc(var(--width) - 200px);
   }
 `
 

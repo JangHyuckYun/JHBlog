@@ -2,6 +2,7 @@
 title: Gatsby에 category 추가하는법
 date: "2022-03-15"
 desc: "Gatsby에 Category 적용 방법에 대해 적었습니다."
+alt: "Gatsby에 category 추가하는법"
 category: "JavaScript"
 tags: [ "Gatsby", "Category", "React", "Javascript" ]
 thumbnail: ./images/Gatsby_logo.png

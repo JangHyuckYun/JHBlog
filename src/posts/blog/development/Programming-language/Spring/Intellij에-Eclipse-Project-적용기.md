@@ -2,9 +2,10 @@
 title: Intellij에 Eclipse Project적용하면서 났던 오류들
 date: "2022-03-25"
 desc: "Intellij에 Eclipse Project 적용하면서 생겨났던 오류, 해결법 등에 대해 적어봤습니다."
+alt: "Intellij에 Eclipse Project적용하면서 났던 오류들"
 category: "Spring"
 tags: [ "Spring", "EgovFramework", "Intellij", "Eclipse Project", "Eclipse" ]
-thumbnail: ./적용기/eclipseToIntellij.png
+thumbnail: ./images/eclipseToIntellij.png
 ---
 
 # Intellij에 Eclipse Project 적용 하기까지
@@ -33,7 +34,7 @@ Intellij에 Eclipse Project를 적용하며 났던 문제가 크게 2가지였�
 
 여기 오류는 의외로 쉽게 해결했다.
 
-![pom.xml](./적용기/pom_xml_egov.png)
+![pom.xml](src/posts/blog/development/Programming-language/Spring/images/pom_xml_egov.png)
 
 위의 사진이 pom.xml의 일부분이다. 여기서 원래 url 들이 **https**가 아닌 **http**로 되어있었다.
 Eclipse에서는 별 문제 없이 됬었는데 Intellij에서 실행하였더니 오류가 났었다. 간단하게 `http -> https` 로 수정하였더니 잘 되었다.
@@ -60,7 +61,7 @@ build시 `target/classes` 에 옮겨진다? 였나 비슷한 문구를 발견했
 해결책을 찾기까지 과정은 힘들었지만 막상 알고나니 되게 허무했다. (기초? 이론 등의 중요성을 깨닫게 되기도 하였다.)  
 결론부터 말하면 IDE 설정의 문제였다. 먼저 `Settings -> Build, Execution, Deployment -> Compiler -> Java Compiler`에 들어간다.
 
-![setting - java compiler](./적용기/javaCompiler_down.png)
+![setting - java compiler](src/posts/blog/development/Programming-language/Spring/images/javaCompiler_down.png)
 
 아래쪽을 보면 위에 사진처럼 생긴 부분이 있을것이다.
 여기에 실행할 Module(Maven Project)을 넣어주고 적용 후 실행하면 매우 잘 된다!(안되면 Rebuild 후 재실행)
