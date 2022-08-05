@@ -10,6 +10,7 @@ import Layout from "Layouts/layout"
 import SEO from "Components/seo"
 import PostGrid from "Components/postGrid"
 import CategoryFilter from "Components/catetgoryFilter"
+import {Helmet} from "react-helmet";
 
 const Home = ({
   pageContext,
@@ -53,6 +54,9 @@ const Home = ({
 
   return (
     <Layout>
+      <Helmet>
+        <meta name="google-site-verification" content="64U-eCcEYi2JRzyzsjcGZXtKJOGIQRJNNygtA4_O6y8" />
+      </Helmet>
       <SEO title="Home" />
       <Main>
         <Content>

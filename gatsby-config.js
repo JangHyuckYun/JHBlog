@@ -202,15 +202,31 @@ const analyticsPlugins = [
     }
 ];
 
+const robotsPlugins = [
+    {
+        resolve: 'gatsby-plugin-robots-txt',
+        options: {
+            host: meta.siteUrl,
+            sitemap: `${meta.siteUrl}/sitemap.xml`,
+            policy: [{
+                userAgent: '*', allow: '/'
+            }]
+        }
+    }
+];
+
 module.exports = {
     siteMetadata,
     plugins: [
         ...analyticsPlugins,
+        'gatsby-plugin-sitemap',
+        ...robotsPlugins,
+        'gatsby-plugin-react-helmet',
         ...corePlugins,
         ...devPlugins,
         ...imagePlugins,
         ...markdownPlugins,
         ...searchPlugins,
-        ...pwaPlugins
+        ...pwaPlugins,
     ],
 }
