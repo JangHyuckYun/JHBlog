@@ -205,12 +205,12 @@ const analyticsPlugins = [
 module.exports = {
     siteMetadata,
     plugins: [
+        ...analyticsPlugins,
         ...corePlugins,
         ...devPlugins,
         ...imagePlugins,
         ...markdownPlugins,
         ...searchPlugins,
-        ...pwaPlugins,
-        ...analyticsPlugins
+        ...pwaPlugins
     ],
 }
