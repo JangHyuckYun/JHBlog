@@ -27,6 +27,9 @@ const metaConfig = {
     github: "https://github.com/JangHyuckYun/JHBlog",
   },
   favicon: "src/images/icon.png",
+  analytics: {
+    gtag: "G-KJEMZCG5MV"
+  }
 }
 
 // eslint-disable-next-line no-undef
