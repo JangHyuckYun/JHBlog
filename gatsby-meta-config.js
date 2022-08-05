@@ -20,7 +20,7 @@ const metaConfig = {
   title: "Dev JH",
   description: `JH's Blog`,
   author: "JH",
-  siteUrl: "https://github.com/JangHyuckYun/JHBlog",
+  siteUrl: "https://janghyuck.netlify.app",
   lang: "en",
   utterances: "JangHyuckYun/JHBlog",
   links: {
@@ -29,7 +29,8 @@ const metaConfig = {
   favicon: "src/images/icon.png",
   analytics: {
     gtag: "G-KJEMZCG5MV"
-  }
+  },
+  ga: "G-KJEMZCG5MV"
 }
 
 // eslint-disable-next-line no-undef
