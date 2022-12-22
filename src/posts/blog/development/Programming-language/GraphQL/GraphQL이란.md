@@ -6,8 +6,6 @@ alt: "graphql이란"
 category: "GraphQL"
 tags: [ "GraphQL" ]
 thumbnail: ./images/graphql.png
-
-
 ---
 
 GraphQL(이하 gql)은

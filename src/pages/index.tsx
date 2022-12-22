@@ -31,7 +31,10 @@ const Home = ({
       const { id } = node
       const { slug } = node?.fields!
       const { title, desc, date, category, thumbnail, alt } = node?.frontmatter!
-      const { childImageSharp } = thumbnail!
+
+      console.log('thumbnail', thumbnail)
+
+      const { childImageSharp } = thumbnail! ?? { childImageSharp: { id:0 } };
 
       setPosts(prevPost => [
         ...prevPost,

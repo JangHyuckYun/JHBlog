@@ -11,6 +11,7 @@ import packageJSON from "../../package.json"
 
 const { name, homepage } = packageJSON
 
+// @ts-ignore
 const Layout: React.FC = ({ children }) => {
   const { theme, themeToggler } = useTheme()
   const { title, author } = useSiteMetadata()

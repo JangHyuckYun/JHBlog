@@ -55,7 +55,7 @@ const Grid = styled.ul`
     margin-bottom: 0;
   }
 
-  @media (max-width: ${({ theme }) => theme.device.sm}) {
+  @media (max-width: ${({ theme }) => theme.device.md}) {
     grid-gap: var(--grid-gap-lg);
     grid-template-columns: repeat(2, 1fr);
   }
@@ -85,7 +85,7 @@ const List = styled.li`
     }
   }
 
-  @media (max-width: ${({ theme }) => theme.device.sm}) {
+  @media (max-width: ${({ theme }) => theme.device.xss}) {
     grid-column: span 2;
   }
 `
