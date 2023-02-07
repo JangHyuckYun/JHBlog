@@ -22,6 +22,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ data }) => {
 
   const ogImagePath = thumbnail && thumbnail?.childImageSharp?.gatsbyImageData?.src
 
+  // @ts-ignore
   return (
     <Layout>
       <SEO title={title} desc={desc} image={ogImagePath!} />

@@ -107,6 +107,7 @@ const Markdown = styled.article<{ rhythm: typeof typography["rhythm"] }>`
 
   li {
     margin-bottom: ${({ rhythm }) => rhythm(0.3)};
+    line-height: 1.18;ㅇ
   }
 
   p,
