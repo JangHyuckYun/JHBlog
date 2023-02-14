@@ -56,7 +56,7 @@ Aspect를 적용하는 곳 ( Class or Method ... )
 ## 스프링 AOP
 프록시 패턴 기반의 AOP 구현체다.  
 
-> <a href="/blog/development/Programming-language/Java/Study/CustomAnnotation/">프록시 패턴이란??</a>
+> <a href="/blog/development/designPattern/ProxyPattern/">프록시 패턴이란??</a>
 
 ※ 스프링 빈에만 AOP적용이 가능하다.
 
