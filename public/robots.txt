@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://janghyuck.netlify.app/sitemap-index.xml
+Host: https://janghyuck.netlify.app
