@@ -1,6 +1,60 @@
-# Hello
+# 3년차 프론트엔드 개발자, 윤장혁 입니다.  
+  
+Visit my [Github Profile](https://github.com/JangHyuckYun).
 
-Welcome to my blog. My name is JH.<br>
-I'm a back-end developer who wants a front-end developer!
+---
 
-Visit my [Github repository](https://github.com/JangHyuckYun/JHBlog).
+# WORK
+
+## LiST ( 주식회사 리스트 )
+### 2021.01 ~ 재직중
+**GPT를 활용하여 사용자 데이터를 기반으로 질문 및 답변을 해주는 개인형 챗봇 서비스**
+- **기간:** 2023.09 ~ 현재
+- **성과:** 
+  - Google Analytics 지표에 따라, 사용자 접속 유지량 기존 대비 20% 증가
+- **경험:**
+  - 서비스의 전반적인 상태관리 / 공용 컴포넌트 개발 
+    - 같은 데이터 반복 호출을 줄이기 위해 React-Query Library 부분 도입하여 API 호출 빈도수 감소 
+    - 컴포넌트 중복 사용을 줄이기 위해 React Context API 활용한 상태 관리 도입 
+  - 동료들과 Context API와 Custom Hook 활용 방법에 대한 스터디를 진행 후 서비스 코드 개선
+  - 사용자 경험 개선을 위해 블랙박스 테스트 진행
+    - 채팅 UI 개선을 위해 타이핑 애니메이션 개선 및 markdown UI 도입
+- **기술 스택:** 
+  - Client Stack 
+    - React 
+    - TanStack Query ( React-Query )
+    - Context API를 통한 상태관리 
+    - React-file-viewer 
+  - Backend Stack 
+    - Spring boot 5.x 
+    - LibreOffice SDK ( 파일 변환 기능 위주 사용 )
+    - MariaDB 10.2 
+  - 배포 환경 
+    - CentOS
+
+**영화 서비스 구축에 필요한 데이터 정보 크롤링**
+- **기간:** 2023.01 ~ 2023.07
+- **경험:**
+  - 고객사 요구사항에 맞춰 기능 명세서 설계 
+  - 이벤트 루프 기반으로 만들어진 함수를 활용해, 병렬 크롤링 기능 개발
+  - 정제된 데이터를 엑셀 양식에 맞춰 변환되는 기능 개발
+- **기술 스택:**
+  - NodeJS 18.x
+  - TypeScript
+  
+**동아시아 고서를 제공하는 국가 포털 사이트의 CMS 리뉴얼**
+- **기간:** 2021.03 ~ 2022.12
+- **경험:** 
+  - CMS 여러 기관의 유입을 고려하여 보안성을 올리기 위해
+    -> 권한 체계 변경 및 그에 따른 DB 설계 
+  - 일반 이용자들의 문의사항을 관리할 수 있고,
+    관리자들간의 커뮤니케이션 환경 구축 
+  - 일반 이용자 접속 통계를 확인하기 위해
+    -> Google Analytics API를 연동 후 시각화 
+  - 모든 국가 연구자, 사서들이 사용에 불편함이 없도록
+    -> 소프트웨어 국제화 시스템 개발
+  - 연구자, 사서들이 반입한 데이터에 대해 다운로드 할 수 있는 페이지 개발 
+  - 최신 문법을 지원하지 않는 브라우저에서 JavaScript의 ES6  이상 문법도 정상적으로 동작하도록
+    -> Webpack 도입 건의 및 개발
+
+---
